@@ -72,7 +72,7 @@ This project was implemented during the contest period with AI-assisted research
 
 ## Links still required
 
-- Public repository URL: pending
-- Hosted Cloud Run URL or deployment proof: pending
-- Architecture image: pending final render
-- Demo video URL: pending recording and approval
+- Public repository URL: https://github.com/Andrew-JS19/homeowner-quote-clarity-agent
+- Hosted Cloud Run URL or deployment proof: blocked until approved event credits are visibly active
+- Architecture image: `docs/architecture-devpost.png`
+- Demo video URL: local private-review draft complete; public upload pending entrant approval
