@@ -21,3 +21,10 @@ Thumbs.db
 *.log
 .gcloud/
 docs/architecture.png
+docs/demo-frames/
+docs/demo-storyboard.html
+docs/demo-narration.txt
+docs/demo-narration.wav
+docs/make-demo-audio.ps1
+docs/homeowner-quote-clarity-private-review.mp4
+docs/demo-preview-*.png

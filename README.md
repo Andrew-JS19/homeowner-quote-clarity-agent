@@ -33,7 +33,7 @@ flowchart LR
   C --> G[Gemini 3.5 Flash]
   D --> A[Source-linked report and audit events]
   G --> A
-  A -->|GET job status| U
+  A -->|Return bounded result| U
 ```
 
 The deterministic evidence engine is the source of truth. The planned Gemini role is to coordinate the bounded workflow and summarize validated results; it cannot change extracted totals, source anchors, or the no-ranking boundary. This model path is not claimed as working until a real run is captured and verified.

@@ -53,4 +53,4 @@ This report organizes stated evidence and neutral questions. A homeowner and qua
 
 ## Simulation notice
 
-Text extraction, agent delegation, Gemini reasoning, Google ADK orchestration, asynchronous Cloud Run execution, Firestore state, production security, and model evaluation are not implemented in this offline vertical slice.
+Text extraction, live agent delegation, Gemini reasoning, live Google ADK orchestration, Cloud Run execution, production security, and model evaluation are not implemented in this offline vertical slice. ADK agent definitions and local in-memory session initialization are tested separately without a model call.
