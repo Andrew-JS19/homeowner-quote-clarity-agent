@@ -1,0 +1,578 @@
+{
+  "decision_boundary": {
+    "performs_contractor_selection": false,
+    "performs_external_actions": false,
+    "performs_legal_or_technical_compliance_assessment": false,
+    "performs_price_fairness_assessment": false,
+    "statement": "This report organizes stated evidence and neutral questions. A homeowner and qualified advisers make all decisions."
+  },
+  "input_classification": "entirely_fictional_synthetic_fixtures",
+  "missing_and_ambiguities": [
+    {
+      "field": "validity",
+      "question": "Please state the quotation validity period.",
+      "quote_id": "A",
+      "reason": "not_stated",
+      "state": "unknown"
+    },
+    {
+      "field": "electrical_handover",
+      "question": "Please confirm what electrical testing or handover record is included, if any.",
+      "quote_id": "A",
+      "reason": "not_stated",
+      "state": "unknown"
+    },
+    {
+      "field": "waste",
+      "question": "Please confirm whether waste is included, excluded, optional, or owner-supplied.",
+      "quote_id": "B",
+      "reason": "not_stated",
+      "state": "unknown"
+    },
+    {
+      "field": "electrical_handover",
+      "question": "Please confirm what electrical testing or handover record is included, if any.",
+      "quote_id": "B",
+      "reason": "not_stated",
+      "state": "unknown"
+    },
+    {
+      "field": "electrical_handover",
+      "question": "Please confirm what electrical testing or handover record is included, if any.",
+      "quote_id": "C",
+      "reason": "not_stated",
+      "state": "unknown"
+    }
+  ],
+  "package_date": "2026-08-20",
+  "processing_mode": "deterministic_rules_simulation_no_model_no_network",
+  "project": "Pinehaven Cottage Bathroom Refresh - Synthetic Demonstration",
+  "quote_summaries": [
+    {
+      "contractor": "SampleBuild Alpha (fictional)",
+      "currency": "ZAR",
+      "neutral_questions": [
+        "Please state the quotation validity period.",
+        "Please confirm what electrical testing or handover record is included, if any."
+      ],
+      "quote_id": "A",
+      "quoted_total": 84500,
+      "tax_basis": "VAT_INCLUDED",
+      "terms": {
+        "duration": {
+          "evidence": {
+            "source_excerpt_hash": "bb4f373eb6b67f4127dbeca76e87fc6a53d30c3ed906ba26982bcc52cf0bd1a0",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 14
+          },
+          "value": "21 working days"
+        },
+        "electrical_handover": {
+          "evidence": {
+            "source_excerpt_hash": "83c0cdcf98b9a1789d85afcfe7e353e74d49bfeea178528ee1ae87f5c580ef76",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 18
+          },
+          "value": null
+        },
+        "payment_deposit": {
+          "evidence": {
+            "source_excerpt_hash": "f136b4351e64f5c51a9eafa7116b011daf83f1f421a43a499c04ddba99f42854",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 15
+          },
+          "value": "10 percent"
+        },
+        "validity": {
+          "evidence": {
+            "source_excerpt_hash": "b8d4718a2fc515fe3c51bc784241307d5459b9515ffadfb065c4d2df8028be24",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 17
+          },
+          "value": null
+        },
+        "warranty_waterproofing": {
+          "evidence": {
+            "source_excerpt_hash": "f40b2ae23f7b296b4f66d7df084830c16601a63e16b89ce564463725c489af02",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 16
+          },
+          "value": "5 years"
+        }
+      },
+      "total_confidence": "high",
+      "total_evidence": {
+        "source_excerpt_hash": "0e79353bb90fb38479659bc1f18546d0611e459e49c52227beec2ee562d00fb0",
+        "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+        "source_line": 5
+      },
+      "total_raw": "R 84,500",
+      "total_verification_state": "extracted"
+    },
+    {
+      "contractor": "SampleBuild Beta (fictional)",
+      "currency": "ZAR",
+      "neutral_questions": [
+        "Please confirm whether waste is included, excluded, optional, or owner-supplied.",
+        "Please confirm what electrical testing or handover record is included, if any."
+      ],
+      "quote_id": "B",
+      "quoted_total": 78900,
+      "tax_basis": "VAT_EXCLUDED",
+      "terms": {
+        "duration": {
+          "evidence": {
+            "source_excerpt_hash": "e9f38580a7ac321371fbbae08c597b85b7c14767a095923fda6f9fbb4298f513",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 13
+          },
+          "value": "about 3 weeks"
+        },
+        "electrical_handover": {
+          "evidence": {
+            "source_excerpt_hash": "83c0cdcf98b9a1789d85afcfe7e353e74d49bfeea178528ee1ae87f5c580ef76",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 17
+          },
+          "value": null
+        },
+        "payment_deposit": {
+          "evidence": {
+            "source_excerpt_hash": "55555274820995a28421941411ce0604d87fb4f03e0bb116c996aa7fa77c3636",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 14
+          },
+          "value": "50 percent"
+        },
+        "validity": {
+          "evidence": {
+            "source_excerpt_hash": "9e05709623c6e16e8fe37ba6e098e8a8b273557ae4e61a4df111ec24ab3b02ed",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 16
+          },
+          "value": "7 days"
+        },
+        "warranty_workmanship": {
+          "evidence": {
+            "source_excerpt_hash": "e27972d9077917c0283583d2fd2c6a7f3c3bf32c9f60ec5e1e675f93509244da",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 15
+          },
+          "value": "12 months"
+        }
+      },
+      "total_confidence": "low",
+      "total_evidence": {
+        "source_excerpt_hash": "3c99617057b8e50a50d57dcdeaa6a1c0fa839f90b5a1bf612756d7dd7e7ca841",
+        "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+        "source_line": 5
+      },
+      "total_raw": "R 78,9O0",
+      "total_verification_state": "needs-human-review"
+    },
+    {
+      "contractor": "SampleBuild Gamma (fictional)",
+      "currency": "ZAR",
+      "neutral_questions": [
+        "Please confirm what electrical testing or handover record is included, if any."
+      ],
+      "quote_id": "C",
+      "quoted_total": 92300,
+      "tax_basis": "VAT_INCLUDED",
+      "terms": {
+        "duration": {
+          "evidence": {
+            "source_excerpt_hash": "cd4a8e6109799577f66834f71bc260db7ef1a798138479dd76f1c81ddc9223c1",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 14
+          },
+          "value": "4 calendar weeks"
+        },
+        "electrical_handover": {
+          "evidence": {
+            "source_excerpt_hash": "83c0cdcf98b9a1789d85afcfe7e353e74d49bfeea178528ee1ae87f5c580ef76",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 18
+          },
+          "value": null
+        },
+        "payment_schedule": {
+          "evidence": {
+            "source_excerpt_hash": "c4a8bc2faa1053c52546da55f29d9bda7e30a4be05bd12c645c58128b9ee8ad5",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 15
+          },
+          "value": "20 percent deposit; 40 percent midpoint; 40 percent completion"
+        },
+        "validity": {
+          "evidence": {
+            "source_excerpt_hash": "35a03e8afbc674905be2cbf26d16435db8b4f9aa49d623ffb0b51708a73a7bc4",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 17
+          },
+          "value": "14 days"
+        },
+        "warranty_workmanship": {
+          "evidence": {
+            "source_excerpt_hash": "6fe986cfebea7c5457372f4c737287b6daabb80c3c623bbe352b3c0aebb5ffed",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 16
+          },
+          "value": "24 months"
+        }
+      },
+      "total_confidence": "high",
+      "total_evidence": {
+        "source_excerpt_hash": "fd63319b391e45bb7b6277f72cd6cdab0f852b7bc7d07496cf3c3e872c658aaf",
+        "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+        "source_line": 5
+      },
+      "total_raw": "R 92,300",
+      "total_verification_state": "extracted"
+    }
+  ],
+  "schema_version": "0.1.0-offline-simulation",
+  "scope_comparison": [
+    {
+      "category": "demolition",
+      "quotes": {
+        "A": {
+          "amount": 12000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "1fcd643ae016b412db7a1594b9894926ac59458381e8b5c90b3b73d604f23fda",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 6
+          },
+          "notes": "Included",
+          "original_label": "Demolition",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 9000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "3e31eb1cb7b44c2cd3143baa1b40a2de710c07466edc4e050e8b642ed4e1568c",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 6
+          },
+          "notes": "Included",
+          "original_label": "Demolition works",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 11000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "6162bcb44fb9f0a96c71e3ff34818efdb653c45201da9ece8231d89b31883f56",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 6
+          },
+          "notes": "Included",
+          "original_label": "Strip-out and demolition",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "waste",
+      "quotes": {
+        "A": {
+          "amount": 4500,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "e28c658b6b0806f269f7a725e18139ac64bbf4bbb86cd890fcc46b02ae106a90",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 7
+          },
+          "notes": "Included",
+          "original_label": "Waste removal",
+          "state": "stated"
+        },
+        "B": {
+          "amount": null,
+          "commercial_type": "unknown",
+          "evidence": null,
+          "state": "unknown"
+        },
+        "C": {
+          "amount": 5000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "e00b1d2d955c45e94d66cb304ec22fb55b0e8707d0bbe287d5d6c3a1a0de90c4",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 7
+          },
+          "notes": "Included",
+          "original_label": "Rubble disposal",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "waterproofing",
+      "quotes": {
+        "A": {
+          "amount": 16000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "8be88772a7416fcae5b57a127183160661141e63167d8374e68b76928d79c26f",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 8
+          },
+          "notes": "Included",
+          "original_label": "Waterproofing",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 14000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "d7581fa5878075f60f5524120b6d664859ebd4e28166aeaea27b90af452a45b1",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 7
+          },
+          "notes": "Included",
+          "original_label": "Waterproof membrane",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 17000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "02e78e1ea6f9b7d66fa07f9387609a726659c939fab27b6447bd4d3b342c899e",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 8
+          },
+          "notes": "Included",
+          "original_label": "Waterproofing system",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "tiling",
+      "quotes": {
+        "A": {
+          "amount": 29000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "13b08d24486b46df52defa8a633af636df299a2d68a26b14b319b9ed9db0cbf2",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 9
+          },
+          "notes": "Included",
+          "original_label": "Wall and floor tiling",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 12000,
+          "commercial_type": "allowance",
+          "evidence": {
+            "source_excerpt_hash": "256ca04619fadab84c3ea243ee93f7ebb2a6e7f8f7c4df2139322f507fb36107",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 8
+          },
+          "notes": "Allowance; final selection may change cost",
+          "original_label": "Tiling",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 26000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "b25975bdac014c594ccef10386c0bce8e7bb326464cdb674a609e5f96d78d6a0",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 9
+          },
+          "notes": "Included",
+          "original_label": "Wall/floor tile installation",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "plumbing",
+      "quotes": {
+        "A": {
+          "amount": 14000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "f3e2d94fb435ffafeec7467b7f25fbd34d29bafc7edb7cbf8066c443a8cdc6c0",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 10
+          },
+          "notes": "Included",
+          "original_label": "Plumbing alterations",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 13000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "5efb2402c14d78036570c4be13ace40ad383344c58b36d4fd43d1412cc35cfe8",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 9
+          },
+          "notes": "Included",
+          "original_label": "Plumbing",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 15000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "b73fb44272179e7700a23f5e2eca96d8168dda33b68c907aaf2c555fc2804d8a",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 10
+          },
+          "notes": "Included",
+          "original_label": "Plumbing changes",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "electrical",
+      "quotes": {
+        "A": {
+          "amount": 9000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "682b2b85750337ac6f498ca623b640aab2531bd00553146fc361ed8375c28d64",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 11
+          },
+          "notes": "Included",
+          "original_label": "Electrical alterations",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 8000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "551e9b4547339996d9d036c15a8eb920e55868760491f5f78203ac42c34d06e5",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 10
+          },
+          "notes": "Included",
+          "original_label": "Electrical",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 3500,
+          "commercial_type": "optional",
+          "evidence": {
+            "source_excerpt_hash": "0b0e7a3d45578b62e13c78ac9067f18cad72704a77cf516b7ad16cf41e5c15a8",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 11
+          },
+          "notes": "Optional; excluded from base total",
+          "original_label": "Electrical changes",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "sanitaryware",
+      "quotes": {
+        "A": {
+          "amount": null,
+          "commercial_type": "excluded",
+          "evidence": {
+            "source_excerpt_hash": "d20afec71656a2f667b89da926e955be5a75ec473c6e032486d72f3e738f9604",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 12
+          },
+          "notes": "Client supply",
+          "original_label": "Sanitaryware",
+          "state": "stated"
+        },
+        "B": {
+          "amount": null,
+          "commercial_type": "excluded",
+          "evidence": {
+            "source_excerpt_hash": "e1ff93b18d56e06a8fbde5b1635d7ecf2b5d745102fc4f364c2fdf8dd4392547",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 11
+          },
+          "notes": "Client supply",
+          "original_label": "Fittings and sanitaryware",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 15000,
+          "commercial_type": "allowance",
+          "evidence": {
+            "source_excerpt_hash": "8e57696bb4e063519108a7b3eea3c9f4b026c1c35e7863461b5443f873a98f2e",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 12
+          },
+          "notes": "Included up to stated cap",
+          "original_label": "Sanitary fittings",
+          "state": "stated"
+        }
+      }
+    },
+    {
+      "category": "painting",
+      "quotes": {
+        "A": {
+          "amount": null,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "b0ed31c29f83fe5e6271d1ecf9ebdf31c0d21ae7eda3511b743e10b819c0d910",
+            "source_file": "Quote_A_SampleBuild_Alpha_rev2.txt",
+            "source_line": 13
+          },
+          "notes": "Included; amount bundled",
+          "original_label": "Painting and finishing",
+          "state": "stated"
+        },
+        "B": {
+          "amount": 5000,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "0c7fb170b3e76d0744c69217c6909b4739cb5db023e2c54112f422a2af403224",
+            "source_file": "bathroom_quote_FINAL_final_SampleBuild_Beta.txt",
+            "source_line": 12
+          },
+          "notes": "Included",
+          "original_label": "Paint and final finish",
+          "state": "stated"
+        },
+        "C": {
+          "amount": 6500,
+          "commercial_type": "fixed",
+          "evidence": {
+            "source_excerpt_hash": "37f26baa166d6a4ec7dd1102a38dc0bc399643cd8ae91326ec464a96198523bf",
+            "source_file": "SampleBuild_Gamma_Proposal_20Aug26.txt",
+            "source_line": 13
+          },
+          "notes": "Included",
+          "original_label": "Painting",
+          "state": "stated"
+        }
+      }
+    }
+  ],
+  "security_events": [
+    {
+      "action": "not_added_to_evidence",
+      "associated_quote": "C",
+      "event": "unsupported_record_quarantined",
+      "source_excerpt_hash": "2a3123a114b64b4e306a81f0c9604d59e0e36c5fda0d197a59e5a8d78b613aa5",
+      "source_file": "contractor_notes_and_scope.txt",
+      "source_line": 3
+    },
+    {
+      "action": "ignored_as_instruction",
+      "associated_quote": "C",
+      "event": "prompt_injection_quarantined",
+      "source_excerpt_hash": "f6cd7c7a0317d5704c5b89cd7efd52aa6717be6b1405ddacbb8fe6dd4efb92d4",
+      "source_file": "contractor_notes_and_scope.txt",
+      "source_line": 4
+    }
+  ],
+  "simulation_notice": "Text extraction, agent delegation, Gemini reasoning, Google ADK orchestration, asynchronous Cloud Run execution, Firestore state, production security, and model evaluation are not implemented in this offline vertical slice."
+}

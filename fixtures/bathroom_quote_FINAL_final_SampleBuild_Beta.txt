@@ -1,0 +1,17 @@
+# Entirely fictional quotation fixture. Simulates OCR ambiguity in the total.
+META|quote_id|B
+META|contractor|SampleBuild Beta (fictional)
+META|project|Pinehaven Cottage Bathroom Refresh - Synthetic Demonstration
+TOTAL|R 78,9O0|VAT_EXCLUDED
+SCOPE|Demolition works|9000|fixed|Included
+SCOPE|Waterproof membrane|14000|fixed|Included
+SCOPE|Tiling|12000|allowance|Allowance; final selection may change cost
+SCOPE|Plumbing|13000|fixed|Included
+SCOPE|Electrical|8000|fixed|Included
+SCOPE|Fittings and sanitaryware|UNKNOWN|excluded|Client supply
+SCOPE|Paint and final finish|5000|fixed|Included
+TERM|duration|about 3 weeks
+TERM|payment_deposit|50 percent
+TERM|warranty_workmanship|12 months
+TERM|validity|7 days
+TERM|electrical_handover|UNKNOWN

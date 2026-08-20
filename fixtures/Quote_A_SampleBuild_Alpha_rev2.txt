@@ -1,0 +1,18 @@
+# Entirely fictional quotation fixture. No real contractor, homeowner, or project.
+META|quote_id|A
+META|contractor|SampleBuild Alpha (fictional)
+META|project|Pinehaven Cottage Bathroom Refresh - Synthetic Demonstration
+TOTAL|R 84,500|VAT_INCLUDED
+SCOPE|Demolition|12000|fixed|Included
+SCOPE|Waste removal|4500|fixed|Included
+SCOPE|Waterproofing|16000|fixed|Included
+SCOPE|Wall and floor tiling|29000|fixed|Included
+SCOPE|Plumbing alterations|14000|fixed|Included
+SCOPE|Electrical alterations|9000|fixed|Included
+SCOPE|Sanitaryware|UNKNOWN|excluded|Client supply
+SCOPE|Painting and finishing|UNKNOWN|fixed|Included; amount bundled
+TERM|duration|21 working days
+TERM|payment_deposit|10 percent
+TERM|warranty_waterproofing|5 years
+TERM|validity|UNKNOWN
+TERM|electrical_handover|UNKNOWN

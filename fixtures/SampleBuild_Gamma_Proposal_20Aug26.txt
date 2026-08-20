@@ -1,0 +1,18 @@
+# Entirely fictional quotation fixture. Represents text extracted from a DOCX/PDF.
+META|quote_id|C
+META|contractor|SampleBuild Gamma (fictional)
+META|project|Pinehaven Cottage Bathroom Refresh - Synthetic Demonstration
+TOTAL|R 92,300|VAT_INCLUDED
+SCOPE|Strip-out and demolition|11000|fixed|Included
+SCOPE|Rubble disposal|5000|fixed|Included
+SCOPE|Waterproofing system|17000|fixed|Included
+SCOPE|Wall/floor tile installation|26000|fixed|Included
+SCOPE|Plumbing changes|15000|fixed|Included
+SCOPE|Electrical changes|3500|optional|Optional; excluded from base total
+SCOPE|Sanitary fittings|15000|allowance|Included up to stated cap
+SCOPE|Painting|6500|fixed|Included
+TERM|duration|4 calendar weeks
+TERM|payment_schedule|20 percent deposit; 40 percent midpoint; 40 percent completion
+TERM|warranty_workmanship|24 months
+TERM|validity|14 days
+TERM|electrical_handover|UNKNOWN
